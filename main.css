@@ -5,14 +5,19 @@ html, body {
     text-align: center;
 }
 
+a, a:active, a:hover {
+    color: #c9c9c9;
+}
 .label {
     font-weight: bold;
 }
 
 #labelContainer {
     width: 50%;
-    height: 150px;
-    margin: 100px auto auto auto;
+    height: 85px;
+    padding-top: 20px;
+    vertical-align: middle;
+    margin: auto;
     border: solid 1px #666;
     background-color: #333;
     border-radius: 15px;
