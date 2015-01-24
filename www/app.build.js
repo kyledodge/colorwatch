@@ -1,10 +1,11 @@
 ({
-    appDir: "../",
-    baseUrl: "scripts",
-    dir: "../../app-build",
+    appDir: "./",
+    baseUrl: "./",
+    dir: "../www-build",
+    paths: {
+        'jquery': './lib/jquery'
+    },
     modules: [
-        {
-            name: "main"
-        }
+        {name: "app/main"}
     ]
 })
