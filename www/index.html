@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link href="//fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet" type="text/css">
+        <link href="./resources/css/main.css" rel="stylesheet">
+    </head>
+
+    <body id="main">
+        <h2 id="title">ColorWatch</h2>
+
+        <div id="info">
+            <div id="labelContainer">
+                <h3 id="clock"></h3>
+
+                <div>
+                    <span>Hex Color:</span>
+                    <span id="clockhex"></span>
+                </div>
+
+                <div>
+                    <span>RGB Color:</span>
+                    <span id="clockrgb"></span>
+                </div>
+            </div>
+
+            <p>
+                Displaying the current time as a color. I built this to show an example of using RequireJS and unit testing with QUnit. You can
+                View the <a href="https://github.com/kyledodge/colorwatch">code on Github</a>.
+            </p>
+
+            <p>
+                <a href="http://www.kldodge.com">http://www.kldodge.com</a>
+            </p>
+        </div>
+
+        <div id="clock-container">
+            <svg viewBox="0 0 100 100">
+                <circle id="clockFace" cx="50" cy="50" r="45"/>
+                <g id="hands">
+                    <rect id="hourHand" x="48.5" y="23" width="5" height="30" rx="2.5" ry="2.55" />
+                    <rect id="minuteHand" x="49.5" y="12.5" width="3" height="40" rx="2" ry="2"/>
+                    <line id="secondHand" x1="50" y1="50" x2="50" y2="16" />
+                </g>
+            </svg>
+        </div>
+
+        <script data-main="app" src="lib/require.js"></script>
+    </body>
+
+</html>

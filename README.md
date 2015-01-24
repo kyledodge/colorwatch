@@ -1,4 +1,5 @@
-ColorWatch
+Colorwatch
 ==========
 
-Simple idea: A page that shows the current time as a color. This was used to demonstrate unit testing with QUnit.
+Demonstrating how to display the current time as a color. I built this to show an example of using RequireJS and unit testing with QUnit.
+

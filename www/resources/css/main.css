@@ -1,0 +1,55 @@
+html, body {
+    font-family: "Helvetic Neue", Helvetica, Arial;
+    font-weight: 300;
+    color: #f9f9f9;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    text-align: center;
+    background-color: #333;
+    margin: 0;
+}
+
+a, a:active, a:hover {
+    color: #c9c9c9;
+}
+
+#title {
+    margin: 0;
+    padding: 5px;
+    background-color: #222;
+}
+
+#info {
+    float: left;
+    width: 300px;
+}
+
+#labelContainer {
+    width: 100%;
+    height: 85px;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#labelContainer span {
+    font-size: 13px;
+}
+
+#clockFace {
+    stroke-width: 0.75px;
+    stroke: #111;
+}
+
+#hourHand, #minuteHand, #secondHand {
+    stroke-width: 0.5px;
+    fill: #333;
+    stroke: #666;
+}
+
+#secondHand {
+    stroke: #f55;
+}
+
+#clock-container {
+    width: 300px;
+    margin: auto;
+}
