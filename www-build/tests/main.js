@@ -1,1 +1,0 @@
-require.config({paths:{QUnit:"lib/qunit","app/Clock":"../app/Clock","app/TimeUtil":"../app/TimeUtil",jquery:"../lib/jquery"},shim:{QUnit:{exports:"QUnit",init:function(){QUnit.config.autoload=!1,QUnit.config.autostart=!1}}}}),require(["QUnit","modules/TimeUtilTest","modules/ClockTest"],function(e,t,n){t.run(),n.run(),e.load(),e.start()});
